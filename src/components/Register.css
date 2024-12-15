@@ -1,0 +1,31 @@
+/* Register.css */
+.register-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+  }
+  
+  .register-box {
+    background-color: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .register-box h2 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .register-box .form-control {
+    margin-bottom: 15px;
+  }
+  
+  .register-box .btn {
+    margin-top: 10px;
+  }
+  
