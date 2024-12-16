@@ -1,0 +1,31 @@
+/* Navbar styling */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 10px 20px;
+}
+
+.navbar-links {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+.navbar-links li a {
+  color: #fff; /* Warna teks tombol navbar putih */
+  text-decoration: none;
+  font-size: 16px;
+  padding: 8px 12px;
+  border: 1px solid transparent; /* Default tanpa border */
+  border-radius: 4px; /* Membuat sudut membulat */
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.navbar-links li a:hover {
+  background-color: #fff; /* Background putih saat hover */
+  color: #333; /* Warna teks hitam saat hover */
+  border-color: #fff; /* Tambahkan border putih untuk transisi */
+}
